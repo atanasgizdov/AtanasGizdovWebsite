@@ -9,6 +9,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 body {
 	font: 300 15px/1.6 'Raleway', serif, sans-serif;
@@ -381,58 +382,6 @@ h3 > .fa {
 	margin-right: 6px;
 }
 
-/* ---------------------------------------------- /*
- * Scroll prompt
-/* ---------------------------------------------- */
-
-.mouse-icon {
-	position: relative;
-	border: 2px solid #fff;
-	border-radius: 16px;
-	height: 50px;
-	width: 30px;
-	margin: 0 auto;
-	display: block;
-	z-index: 10;
-}
-
-.mouse-icon .wheel {
-	-webkit-animation-name: drop;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-delay: 0s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-play-state: running;
-	animation-name: drop;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-delay: 0s;
-	animation-iteration-count: infinite;
-	animation-play-state: running;
-}
-
-.mouse-icon .wheel {
-	position: relative;
-	border-radius: 10px;
-	background: #fff;
-	width: 4px;
-	height: 10px;
-	top: 4px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-@-webkit-keyframes drop	{
-	0%   { top:5px;  opacity: 0;}
-	30%  { top:10px; opacity: 1;}
-	100% { top:25px; opacity: 0;}
-}
-
-@keyframes drop	{
-	0%   { top:5px;  opacity: 0;}
-	30%  { top:10px; opacity: 1;}
-	100% { top:25px; opacity: 0;}
-} 
 
 /* ---------------------------------------------- /*
  * Navigation
@@ -530,6 +479,12 @@ h3 > .fa {
  * Profile-contact
 /* ---------------------------------------------- */
 
+#profile-aboutme {
+	background: #18191a;
+    background: #F5F5F5;
+	color: #222;
+}
+
 #profile-contact {
 	box-shadow: 0 0 4px rgba(0, 0, 0, .2);
 	padding: 20px 0;
@@ -568,14 +523,13 @@ h3 > .fa {
 	text-align: center;
 	display: block;
 	width: 40px;
-	height: 40px;
 	line-height: 40px;
 	font-size: 1.25em;
 	color: #FFF;
 }
 
 .widget-social li a:hover {
-	background: #EF4836;
+	background: #0099ff;
 }
 
 .stat .stat-icon {
@@ -603,7 +557,7 @@ h3 > .fa {
 }
 
 /* ---------------------------------------------- /*
- * Resume
+ * Exp
 /* ---------------------------------------------- */
 
 .resume-items {
@@ -694,22 +648,24 @@ h3 > .fa {
 #profile p {
     color: #000;
 }
-/*
+
 #profile h1, #profile h2, #profile h3, #profile h4, #profile h5, #profile h6 {
-	color: #FFF;
+	color: #222;
 }
 
 #profile .form-control {
 	border: 0;
-}*/
+}
 
 /* ---------------------------------------------- /*
  * Contact
 /* ---------------------------------------------- */
 
+
 #contact {
 	background: #18191a;
 	color: #FFF;
+	padding: 60px;
 }
 
 #contact h1, #contact h2, #contact h3, #contact h4, #contact h5, #contact h6 {
