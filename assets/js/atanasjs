@@ -35,9 +35,9 @@
 		/* ---------------------------------------------- */
 
 		$('#intro').vide({
-		    mp4: 'assets/images/Love-Coding/MP4/Love-Coding.mp4',
-		    webm: 'assets/images/Love-Coding/WEBM/Love-Coding.webm',
-		    poster: 'assets/images/Love-Coding/Snapshots/Love-Coding.jpg',
+		    mp4: 'assets/images/NYC-Traffic/MP4/NYC-Traffic.mp4',
+		    webm: 'assets/images/NYC-Traffic/WEBM/NYC-Traffic.webm',
+		    poster: 'assets/images/NYC-Traffic/snapshots/NYC-Traffic.jpg',
             posterType: 'jpg'
 		}, {
 		    volume: 0,
@@ -105,7 +105,7 @@
 
 		$("#owl-clients").owlCarousel({
 			items : 4,
-			slideSpeed : 300,
+			slideSpeed : 900,
 			paginationSpeed : 400,
 			autoPlay: 5000
 		});

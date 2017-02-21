@@ -349,7 +349,7 @@ a,
 
 .headline p {
 	font-weight: 700;
-	color: #C4C4C4;
+	/*color: #C4C4C4;*/
 }
 
 .callout-btn {
@@ -461,18 +461,51 @@ h3 > .fa {
 /* ---------------------------------------------- */
 
 #intro {
-	padding: 260px 0 160px 0;
+	padding: 300px 0 300px 0;
 	text-align: center;
 	color: #FFF;
 
 }
 
-#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
+#intro h1, #intro h2,  #intro h4, #intro h5, #intro h6 {
 	color: #FFF;
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size:80px;
+    
+}
+
+#intro h3 {
+	color: #FFF;
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size:30px;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .hello {
 	margin: 0 0 100px;
+}
+
+hr.colored {
+  border-color: #EF4035;
+  
+}
+@media (min-width: 768px) {
+  hr {
+    max-width: 200px;
+    margin: 20px auto;
+    border-bottom:1px solid white;
+    border-top:1px solid white;
+  }
+  hr.left {
+    margin: 20px auto 20px 0;
+  }
+  hr.right {
+    margin: 20px 0 20px auto;
+  }
 }
 
 /* ---------------------------------------------- /*
@@ -563,6 +596,12 @@ h3 > .fa {
 .resume-items {
 	margin-bottom: 40px;
 }
+
+#exp hr {
+    max-width: 600px;
+    margin: 20px auto;
+    border-bottom:1px solid white;
+  }
 
 .resume-place {
 	margin-bottom: 20px;
@@ -794,5 +833,26 @@ h3 > .fa {
 }
 .video-container video.fillWidth {
     width: 100%;
+}
+
+/* ---------------------------------------------- /*
+ * Education area CSS
+/* ---------------------------------------------- */
+
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
 }
 
