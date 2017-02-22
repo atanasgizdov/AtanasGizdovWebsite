@@ -22,7 +22,7 @@ img {
 }
 
 a {
-	color: #EF4836;
+	
 }
 
 a:hover {
@@ -744,16 +744,20 @@ hr.colored {
 	z-index: 9999;
 }
 
+p {
+	color:#222222;
+}
+
 #status, .status-mes {
-	background-image: url(../images/stevejobs.gif);
+	background-image: url(../images/giphy.gif);
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 200px;
-	left: 35%;
+	height: 245px;
+	left: 50%;
 	margin: -100px 0 0 -100px;
 	position: absolute;
-	top: 40%;
-	width: 800px;
+	top: 50%;
+	width: 250px;
 }
 
 .status-mes {
@@ -768,6 +772,7 @@ hr.colored {
 	color: #222;
 	margin-top: 30px;
 }
+
 
 /* ---------------------------------------------- /*
  * Media

@@ -73,6 +73,8 @@
 				navbar.removeClass('custom-collapse');
 			}
 		});
+		
+		
 
 		/* ---------------------------------------------- /*
 		 * Count to
